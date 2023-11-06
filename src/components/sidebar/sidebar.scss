@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: #ff5b22;
   color: black;
 
   .bg {
@@ -14,7 +14,7 @@
     left: 0;
     bottom: 0;
     width: 400px;
-    background: white;
+    background: #ff5b22;
 
     @include mobile {
       width: 200px;
@@ -49,7 +49,8 @@
     position: fixed;
     top: 25px;
     left: 25px;
-    background-color: #ff5b22;
+    background-color: #102c57;
+    color: wheat !important;
     border: none;
     cursor: pointer;
   }
