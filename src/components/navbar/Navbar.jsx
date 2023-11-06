@@ -17,16 +17,16 @@ const Navbar = () => {
           Riz1_Tech
         </motion.span>
         <div className="social">
-          <motion.a whileHover={{ scale: 0.8 }} href="#">
+          <motion.a whileHover={{ scale: 0.8 }} href="javascript:;">
             <img src="/facebook.png" alt="" />
           </motion.a>
-          <motion.a whileHover={{ scale: 0.8 }} href="#">
+          <motion.a whileHover={{ scale: 0.8 }} href="javascript:;">
             <img src="/instagram.png" alt="" />
           </motion.a>
-          <motion.a whileHover={{ scale: 0.8 }} href="#">
+          <motion.a whileHover={{ scale: 0.8 }} href="javascript:;">
             <img src="/youtube.png" alt="" />
           </motion.a>
-          <motion.a whileHover={{ scale: 0.8 }} href="#">
+          <motion.a whileHover={{ scale: 0.8 }} href="javascript:;">
             <img src="/dribbble.png" alt="" />
           </motion.a>
         </div>
