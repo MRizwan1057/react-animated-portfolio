@@ -13,13 +13,17 @@
     font-size: 1.6rem;
 
     @include mobile {
-      padding-top: calc(100vh - 100px);
-      font-size: 1.2rem;
+      padding-top: calc(100vh - 60px);
+      font-size: 1rem;
     }
 
     .progressBar {
       height: 10px;
       background-color: white;
+      @include mobile {
+        height: 4px;
+        border-radius: 0.5rem;
+      }
     }
   }
 
@@ -28,7 +32,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100%;
+    height: 90%;
     overflow: hidden;
 
     .wrapper {
@@ -42,6 +46,8 @@
 
       @include mobile {
         flex-direction: column;
+        height: 80%;
+        gap: 0.5rem;
       }
 
       .imageContainer {
@@ -72,22 +78,23 @@
 
         @include mobile {
           transform: none !important;
-          padding: 10px;
+          padding: 1rem;
           align-items: center;
           text-align: center;
+          gap: 0.7rem;
         }
 
         h2 {
           font-size: 2.2rem;
 
           @include mobile {
-            font-size: 1.2rem;
+            font-size: 1rem;
           }
         }
 
         p {
           color: gray;
-          font-size: 1.2rem;
+          font-size: 0.9rem;
 
           @include mobile {
             font-size: 1rem;

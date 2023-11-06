@@ -1,6 +1,7 @@
 @import "../../app.scss";
 
 .footer {
+  flex: 1;
   font-size: 1.2rem;
   color: lightgrey;
   display: flex;
@@ -13,5 +14,6 @@
   }
   @include mobile {
     font-size: 1rem;
+    padding: 0.5rem 0;
   }
 }

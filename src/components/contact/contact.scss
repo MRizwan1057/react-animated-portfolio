@@ -10,8 +10,9 @@
 
   @include mobile {
     width: 100%;
-    padding: 10px;
+    padding: 1rem;
     flex-direction: column;
+    gap: 1rem;
   }
 
   .textContainer {
@@ -21,10 +22,10 @@
     gap: 1rem;
 
     @include mobile {
-      gap: 20px;
+      gap: 0.5rem;
       text-align: center;
       align-items: center;
-      margin-top: 70px;
+      margin-top: 1rem;
     }
 
     h1 {
@@ -32,12 +33,15 @@
       line-height: 44px;
 
       @include mobile {
-        font-size: 2rem;
+        font-size: 1.5rem;
       }
     }
-
+    h2 {
+      font-size: 1rem;
+    }
     span {
       font-weight: 300;
+      font-size: 0.9rem;
     }
   }
 
@@ -46,7 +50,7 @@
     position: relative;
 
     @include mobile {
-      padding: 50px;
+      // padding: 1rem;
       width: 100%;
     }
 
@@ -55,6 +59,12 @@
       position: absolute;
       margin: auto;
       z-index: -1;
+      svg {
+        @include mobile {
+          width: 230px;
+          height: 230px;
+        }
+      }
     }
 
     form {
@@ -72,7 +82,7 @@
         border-radius: 5px;
 
         @include mobile {
-          padding: 10px;
+          padding: 0.3rem;
         }
       }
 

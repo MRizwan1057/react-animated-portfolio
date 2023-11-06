@@ -19,6 +19,7 @@
       align-self: center;
       text-align: center;
       flex-direction: column;
+      gap: 0rem;
     }
 
     p {
@@ -26,6 +27,10 @@
       font-size: 1.2rem;
       color: gray;
       text-align: right;
+      @include mobile {
+        font-size: 1rem;
+        padding: 1rem 0;
+      }
     }
 
     hr {
@@ -34,7 +39,8 @@
       border-top: 0.5px solid gray;
 
       @include mobile {
-        width: 280px;
+        width: 250px;
+        padding-bottom: 0.4rem;
       }
     }
   }
@@ -56,7 +62,7 @@
       @include mobile {
         flex-direction: column;
         text-align: center;
-        gap: 20px;
+        gap: 1rem;
       }
 
       img {
@@ -76,7 +82,7 @@
         font-weight: 100;
 
         @include mobile {
-          font-size: 1.5rem;
+          font-size: 1.2rem;
         }
       }
 
@@ -90,9 +96,9 @@
         cursor: pointer;
 
         @include mobile {
-          font-size: 1rem;
-          width: 130px;
-          height: 44px;
+          font-size: 0.9rem;
+          width: 120px;
+          height: 33px;
         }
       }
     }
@@ -119,11 +125,14 @@
       @include mobile {
         border: none;
         align-items: center;
-        gap: 1rem;
         padding: 0.6rem;
+        gap: 0rem;
       }
       h2 {
         font-size: 1.5rem;
+        @include mobile {
+          font-size: 1rem;
+        }
       }
       p {
         font-size: 1rem;
@@ -145,7 +154,7 @@
           border-radius: 5px;
           color: #ff5b22;
           width: 50%;
-          padding: 5px;
+          padding: 3px;
         }
       }
     }
