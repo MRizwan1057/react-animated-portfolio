@@ -8,6 +8,7 @@ import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
+import ParticleBG from "./components/particle/ParticleBG";
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
       </section>
       <Portfolio />
       <section id="Contact">
+        {/* <ParticleBG /> */}
         <Contact />
       </section>
       <Footer />
